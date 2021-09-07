@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flask = "*"
+django = "*"
+djangorestframework = "*"
+pymongo = "==3.11.2"
+codetiming = "*"
+pandas = "*"
+numpy = "*"
+pandas-datareader = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
